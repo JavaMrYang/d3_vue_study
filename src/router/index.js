@@ -14,6 +14,8 @@ import Demo10 from '@/components/d3/Demo10'
 import Demo11 from '@/components/d3/Demo11'
 import Demo12 from '@/components/d3/Demo12'
 
+import vue1 from '@/components/vue/Demo01'
+
 Vue.use(Router)
 
 export default new Router({
@@ -82,6 +84,11 @@ export default new Router({
       path: '/d3/demo12',
       name: 'Demo11',
       component: Demo12
+    },
+    {
+      path: '/vue/vue1',
+      name: 'vue1',
+      component: vue1
     }
   ]
 })
