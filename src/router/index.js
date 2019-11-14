@@ -13,6 +13,8 @@ import Demo09 from '@/components/d3/Demo09'
 import Demo10 from '@/components/d3/Demo10'
 import Demo11 from '@/components/d3/Demo11'
 import Demo12 from '@/components/d3/Demo12'
+import Demo13 from '@/components/d3/Demo13'
+import Demo14 from '@/components/d3/Demo14'
 
 import vue1 from '@/components/vue/Demo01'
 
@@ -82,8 +84,18 @@ export default new Router({
     },
     {
       path: '/d3/demo12',
-      name: 'Demo11',
+      name: 'Demo12',
       component: Demo12
+    },
+    {
+      path: '/d3/demo13',
+      name: 'Demo13',
+      component: Demo13
+    },
+    {
+      path: '/d3/demo14',
+      name: 'Demo14',
+      component: Demo14
     },
     {
       path: '/vue/vue1',
